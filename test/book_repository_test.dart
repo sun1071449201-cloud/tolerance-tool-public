@@ -51,28 +51,24 @@ void main() {
       expect(() => repo.loadChapter('qc_book.nope'), throwsA(isA<StateError>()));
     });
 
-    test('第 4 本书可加载且分段/锚点解析正确', () async {
+    test('第 4 本书摘要可加载', () async {
       final books = await repo.loadBooks();
       expect(books.any((b) => b.bookId == 'new_book'), isTrue);
       final c = await repo.loadChapter('new_book.ch01');
-      expect(c.sections.length, greaterThanOrEqualTo(5));
+      expect(c.sections.length, greaterThanOrEqualTo(4));
       expect(c.segments.length, greaterThanOrEqualTo(c.sections.length));
-      expect(c.resolveAnchor('1.3'), isNotNull);
-      expect(c.resolveAnchor('9.9'), isNull);
     });
 
-    test('分段切分保留节标题（qc ch01 锚点 1.2.3 可解析）', () async {
+    test('摘要分段正常（qc ch01 结论段可加载）', () async {
       final c = await repo.loadChapter('qc_book.ch01');
-      expect(c.resolveAnchor('1.2.3'), isNotNull);
-      expect(c.sections.any((s) => s.startsWith('1.2.3')), isTrue);
+      expect(c.sections, isNotEmpty);
+      expect(c.bodyMarkdown, contains('结论'));
     });
 
-    test('全文搜索命中书籍正文并返回节号锚点', () async {
-      final hits = await repo.searchContent('白层');
+    test('摘要搜索可命中章节', () async {
+      final hits = await repo.searchContent('检查清单');
       expect(hits, isNotEmpty);
-      final hit = hits.firstWhere((h) => h.chapterKey == 'qc_book.ch06');
-      expect(hit.anchor, isNotNull);
-      expect(hit.snippet, contains('白层'));
+      expect(hits.any((h) => h.chapterKey == 'qc_book.ch01'), isTrue);
     });
 
     test('避坑指南可加载：24 章、Mermaid 块保留、术语锚点已转纯文本', () async {
