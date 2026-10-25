@@ -1,5 +1,7 @@
 # 机械精度与几何公差 · 公开摘要版
 
+**English:** Offline Android toolkit for mechanical tolerances, fits, GD&T, QC quick reference, and chapter summaries (no full copyrighted book text). Code MIT; summaries CC BY-NC-SA 4.0. Build with Flutter 3.24. See docs/build-and-install.md.
+
 一个给机械工程师、QC、非标设计用的 Android 离线工具：查公差、算配合、读手册、背单词、查速查。
 
 > **完全离线**：业务代码不联网、不登录、不上传数据。  
@@ -7,7 +9,7 @@
 > **当前版本**：0.2.0+42（公开摘要版）· Android arm64  
 > **构建**：GitHub Actions · Flutter 3.24 · Drift/SQLite schema v14
 
-[下载 APK](https://github.com/sun1071449201-cloud/tolerance-tool-public/releases) · [问题反馈](https://github.com/sun1071449201-cloud/tolerance-tool-public/issues) · [构建说明](docs/构建与安装指南.md)
+[下载 APK](https://github.com/sun1071449201-cloud/tolerance-tool-public/releases) · [问题反馈](https://github.com/sun1071449201-cloud/tolerance-tool-public/issues) · [构建说明](docs/build-and-install.md)
 
 ---
 
