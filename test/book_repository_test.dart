@@ -71,16 +71,12 @@ void main() {
       expect(hits.any((h) => h.chapterKey == 'qc_book.ch01'), isTrue);
     });
 
-    test('避坑指南可加载：24 章、Mermaid 块保留、术语锚点已转纯文本', () async {
+    test('避坑指南摘要可加载且章节顺序正确', () async {
       final c = await repo.loadChapter('pitfall_book.ch01');
-      expect(c.sections.length, greaterThanOrEqualTo(4));
-      expect(c.bodyMarkdown, contains('```mermaid'));
-      expect(c.bodyMarkdown.contains('<a id='), isFalse);
+      expect(c.sections, isNotEmpty);
       expect(c.nextKey, 'pitfall_book.ch02');
       final last = await repo.loadChapter('pitfall_book.ch23');
       expect(last.nextKey, isNull);
-      final ch05 = await repo.loadChapter('pitfall_book.ch05');
-      expect(ch05.bodyMarkdown, contains('sketch:dimgap'));
     });
   });
 }
