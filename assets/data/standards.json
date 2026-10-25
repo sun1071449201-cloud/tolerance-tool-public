@@ -1,0 +1,113 @@
+{
+  "table": "standards",
+  "columns": [
+    "standard_code",
+    "display_name",
+    "family",
+    "domain",
+    "fallback_standard_code",
+    "data_status",
+    "source_note"
+  ],
+  "rows": [
+    [
+      "ISO_286",
+      "ISO 286-1/-2（极限与配合）",
+      "ISO",
+      "dimension",
+      null,
+      "placeholder",
+      "ISO 286 原文"
+    ],
+    [
+      "GB_T_1800",
+      "GB/T 1800.1/-2（极限与配合）",
+      "GB",
+      "dimension",
+      "ISO_286",
+      "placeholder",
+      "GB/T 1800 原文"
+    ],
+    [
+      "SS_ISO_286",
+      "SS ISO 286（新加坡等同采用 ISO 286）",
+      "SS_ISO",
+      "dimension",
+      "ISO_286",
+      "placeholder",
+      "SS ISO 286 原文"
+    ],
+    [
+      "ASME_B4_2",
+      "ASME B4.2（优选公差配合，inch）",
+      "ASME",
+      "dimension",
+      "ISO_286",
+      "placeholder",
+      "ASME 数值未收录，暂回退 ISO 286"
+    ],
+    [
+      "ISO_2768",
+      "ISO 2768-1/-2（未注公差）",
+      "ISO",
+      "general",
+      null,
+      "placeholder",
+      "ISO 2768 原文"
+    ],
+    [
+      "GB_T_1804",
+      "GB/T 1804（未注线性尺寸公差）",
+      "GB",
+      "general",
+      "ISO_2768",
+      "placeholder",
+      "GB/T 1804 原文"
+    ],
+    [
+      "GB_T_1184",
+      "GB/T 1184（未注形位公差）",
+      "GB",
+      "general",
+      null,
+      "placeholder",
+      "GB/T 1184 原文"
+    ],
+    [
+      "ISO_1101",
+      "ISO 1101（几何公差标注）",
+      "ISO",
+      "gdnt",
+      null,
+      "placeholder",
+      "ISO 1101 原文"
+    ],
+    [
+      "GB_T_1182",
+      "GB/T 1182（几何公差标注）",
+      "GB",
+      "gdnt",
+      null,
+      "placeholder",
+      "GB/T 1182 原文"
+    ],
+    [
+      "ASME_Y14_5",
+      "ASME Y14.5（尺寸与公差标注）",
+      "ASME",
+      "gdnt",
+      null,
+      "placeholder",
+      "ASME Y14.5 原文"
+    ],
+    [
+      "MANUAL_GDT",
+      "机械设计手册（形位公差注出值表）",
+      "MANUAL",
+      "gdnt",
+      null,
+      "placeholder",
+      "设计手册形位公差值表"
+    ]
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "table": "gdnt_grade_values",
+  "columns": ["standard_code", "item_id", "grade_index", "step_id", "value_mm", "source_ref", "verified"],
+  "rows": []
+}

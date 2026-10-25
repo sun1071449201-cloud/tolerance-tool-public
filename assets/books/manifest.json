@@ -1,0 +1,107 @@
+{
+  "books": [
+    {
+      "book_id": "qc_book",
+      "title": "QC 机械检验实操手册",
+      "subtitle": "判定红线 · 检验实操 · 新加坡行业惯例（v1.0）",
+      "accent": "primary",
+      "chapters": [
+        { "key": "qc_book.ch00", "title": "编者导读（App 版）", "file": "qc_book/ch00.md" },
+        { "key": "qc_book.ch01", "title": "第一章 GD&T 形位公差、基准、检验判定", "file": "qc_book/ch01.md" },
+        { "key": "qc_book.ch02", "title": "第二章 工程制图：投影、NX 制图常见坑、标注规范", "file": "qc_book/ch02.md" },
+        { "key": "qc_book.ch03", "title": "第三章 表面处理：电镀 / EP / 阳极氧化 / 黑锌 / 喷砂", "file": "qc_book/ch03.md" },
+        { "key": "qc_book.ch04", "title": "第四章 CNC 加工基础、加工不良原因分析", "file": "qc_book/ch04.md" },
+        { "key": "qc_book.ch05", "title": "第五章 影像测量与机器视觉基础", "file": "qc_book/ch05.md" },
+        { "key": "qc_book.ch06", "title": "第六章 特种加工 QC 要点", "file": "qc_book/ch06.md" },
+        { "key": "qc_book.ch07", "title": "第七章 常用铝合金、不锈钢材料检验要点", "file": "qc_book/ch07.md" },
+        { "key": "qc_book.ch08", "title": "附录：配套 QC 提问提示词模板", "file": "qc_book/ch08.md" }
+      ]
+    },
+    {
+      "book_id": "growth_book",
+      "title": "机械质量人成长手册",
+      "subtitle": "从二次元影像测量到质量工程师：一线 QC 成长地图",
+      "accent": "tertiary",
+      "chapters": [
+        { "key": "growth_book.ch00", "title": "编者导读（App 版）", "file": "growth_book/ch00.md" },
+        { "key": "growth_book.ch01", "title": "第一章 你的位置与三岔路口", "file": "growth_book/ch01.md" },
+        { "key": "growth_book.ch02", "title": "第二章 测量的语言：公差与图纸", "file": "growth_book/ch02.md" },
+        { "key": "growth_book.ch03", "title": "第三章 几何公差 GD&T：进阶第一道坎", "file": "growth_book/ch03.md" },
+        { "key": "growth_book.ch04", "title": "第四章 常用量具与测量误差", "file": "growth_book/ch04.md" },
+        { "key": "growth_book.ch05", "title": "第五章 二次元影像测量与 Zone3 进阶", "file": "growth_book/ch05.md" },
+        { "key": "growth_book.ch06", "title": "第六章 抽样检验与检验实务", "file": "growth_book/ch06.md" },
+        { "key": "growth_book.ch07", "title": "第七章 质量体系与质量工具", "file": "growth_book/ch07.md" },
+        { "key": "growth_book.ch08", "title": "第八章 基础统计与过程能力", "file": "growth_book/ch08.md" },
+        { "key": "growth_book.ch09", "title": "第九章 制造工艺：缺陷从哪里来", "file": "growth_book/ch09.md" },
+        { "key": "growth_book.ch10", "title": "第十章 半导体载板与治具的检验要点", "file": "growth_book/ch10.md" },
+        { "key": "growth_book.ch11", "title": "第十一章 职场英语：车间到会议室", "file": "growth_book/ch11.md" },
+        { "key": "growth_book.ch12", "title": "第十二章 跳槽求职与行动计划", "file": "growth_book/ch12.md" },
+        { "key": "growth_book.appendix", "title": "附录：速查表与学习资源", "file": "growth_book/appendix.md" }
+      ]
+    },
+    {
+      "book_id": "new_book",
+      "title": "机械工程综合知识手册",
+      "subtitle": "公差设计 · 基准 · 表面处理 · 材料 · 标准件 · 传动 · 力学",
+      "accent": "primary",
+      "chapters": [
+        { "key": "new_book.ch01", "title": "第一章 公差与配合设计原则", "file": "new_book/ch01.md" },
+        { "key": "new_book.ch02", "title": "第二章 基准选择与基准体系", "file": "new_book/ch02.md" },
+        { "key": "new_book.ch03", "title": "第三章 表面粗糙度与表面处理", "file": "new_book/ch03.md" },
+        { "key": "new_book.ch04", "title": "第四章 常用材料与热处理", "file": "new_book/ch04.md" },
+        { "key": "new_book.ch05", "title": "第五章 标准件选型常识", "file": "new_book/ch05.md" },
+        { "key": "new_book.ch06", "title": "第六章 常见传动机构常识", "file": "new_book/ch06.md" },
+        { "key": "new_book.ch07", "title": "第七章 力学基础与常见失效", "file": "new_book/ch07.md" },
+        { "key": "new_book.ch08", "title": "第八章 工程数据速查", "file": "new_book/ch08.md" },
+        { "key": "new_book.ch09", "title": "第九章 实战避坑：老师傅的十句话", "file": "new_book/ch09.md" }
+      ]
+    },
+    {
+      "book_id": "pitfall_book",
+      "title": "机械避坑指南：QC 转设计",
+      "subtitle": "一个老工程师 30 年踩坑笔记 · 按学习路径重排版",
+      "accent": "tertiary",
+      "chapters": [
+        { "key": "pitfall_book.ch00", "title": "导读 · 阅读路径与总目录", "file": "pitfall_book/ch00.md" },
+        { "key": "pitfall_book.ch01", "title": "第一章 总论：从“画得出”到“造得出”", "file": "pitfall_book/ch01.md" },
+        { "key": "pitfall_book.ch02", "title": "第二章 材料选型实战", "file": "pitfall_book/ch02.md" },
+        { "key": "pitfall_book.ch03", "title": "第三章 形位公差实战", "file": "pitfall_book/ch03.md" },
+        { "key": "pitfall_book.ch04", "title": "第四章 公差与配合实战", "file": "pitfall_book/ch04.md" },
+        { "key": "pitfall_book.ch05", "title": "第五章 尺寸链与公差分配实战", "file": "pitfall_book/ch05.md" },
+        { "key": "pitfall_book.ch06", "title": "第六章 检测与验收实战", "file": "pitfall_book/ch06.md" },
+        { "key": "pitfall_book.ch07", "title": "第七章 结构避坑（上）：刚度与壁厚", "file": "pitfall_book/ch07.md" },
+        { "key": "pitfall_book.ch08", "title": "第八章 结构避坑（下）：防错与装配友好", "file": "pitfall_book/ch08.md" },
+        { "key": "pitfall_book.ch09", "title": "第九章 螺纹紧固与防松实战", "file": "pitfall_book/ch09.md" },
+        { "key": "pitfall_book.ch10", "title": "第十章 CNC 加工工艺极限避坑", "file": "pitfall_book/ch10.md" },
+        { "key": "pitfall_book.ch11", "title": "第十一章 钣金结构工艺极限避坑", "file": "pitfall_book/ch11.md" },
+        { "key": "pitfall_book.ch12", "title": "第十二章 压铸件设计工艺避坑", "file": "pitfall_book/ch12.md" },
+        { "key": "pitfall_book.ch13", "title": "第十三章 塑料件设计深入", "file": "pitfall_book/ch13.md" },
+        { "key": "pitfall_book.ch14", "title": "第十四章 焊接结构设计避坑", "file": "pitfall_book/ch14.md" },
+        { "key": "pitfall_book.ch15", "title": "第十五章 3D 打印与快速成型避坑", "file": "pitfall_book/ch15.md" },
+        { "key": "pitfall_book.ch16", "title": "第十六章 轴承与轴系结构避坑", "file": "pitfall_book/ch16.md" },
+        { "key": "pitfall_book.ch17", "title": "第十七章 密封设计实战", "file": "pitfall_book/ch17.md" },
+        { "key": "pitfall_book.ch18", "title": "第十八章 散热结构设计避坑", "file": "pitfall_book/ch18.md" },
+        { "key": "pitfall_book.ch19", "title": "第十九章 振动与噪声控制避坑", "file": "pitfall_book/ch19.md" },
+        { "key": "pitfall_book.ch20", "title": "第二十章 表面热处理与 DFM 总检清单", "file": "pitfall_book/ch20.md" },
+        { "key": "pitfall_book.ch21", "title": "第二十一章 外协与供应链避坑", "file": "pitfall_book/ch21.md" },
+        { "key": "pitfall_book.ch22", "title": "第二十二章 QC 转设计行动指南", "file": "pitfall_book/ch22.md" },
+        { "key": "pitfall_book.ch23", "title": "附录：名词卡索引与新旧章对照", "file": "pitfall_book/ch23.md" }
+      ]
+    },
+    {
+      "book_id": "auto_book",
+      "title": "非标自动化设计速成手册",
+      "subtitle": "气缸 · 丝杠导轨 · 电机传动 · 设计禁忌 · QC 视角（v1.0）",
+      "accent": "secondary",
+      "chapters": [
+        { "key": "auto_book.ch00", "title": "编者导读（App 版）", "file": "auto_book/ch00.md" },
+        { "key": "auto_book.ch01", "title": "第一章 气动系统速成：气缸选型五步法", "file": "auto_book/ch01.md" },
+        { "key": "auto_book.ch02", "title": "第二章 滚珠丝杠与直线导轨选型", "file": "auto_book/ch02.md" },
+        { "key": "auto_book.ch03", "title": "第三章 伺服电机与传动选型", "file": "auto_book/ch03.md" },
+        { "key": "auto_book.ch04", "title": "第四章 机构设计禁忌 30 条", "file": "auto_book/ch04.md" },
+        { "key": "auto_book.ch05", "title": "第五章 公差配合在非标中的应用", "file": "auto_book/ch05.md" },
+        { "key": "auto_book.ch06", "title": "第六章 QC 视角：可制造性与可检验性设计", "file": "auto_book/ch06.md" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "table": "fundamental_deviations",
+  "columns": [
+    "dev_id",
+    "applies_to",
+    "zone_class",
+    "formula_note"
+  ],
+  "rows": [
+    [
+      "c",
+      "shaft",
+      "below",
+      "es 为负（远低于零线）"
+    ],
+    [
+      "d",
+      "shaft",
+      "below",
+      "es 为负"
+    ],
+    [
+      "e",
+      "shaft",
+      "below",
+      "es 为负"
+    ],
+    [
+      "f",
+      "shaft",
+      "below",
+      "es 为负，常用转动配合"
+    ],
+    [
+      "g",
+      "shaft",
+      "below",
+      "es 为负，小间隙精密定位"
+    ],
+    [
+      "h",
+      "shaft",
+      "zero_upper",
+      "es = 0，基轴制基准轴【定义】"
+    ],
+    [
+      "k",
+      "shaft",
+      "crossing",
+      "公差带跨零线附近，过渡配合"
+    ],
+    [
+      "n",
+      "shaft",
+      "above",
+      "ei 为正，偏紧过渡"
+    ],
+    [
+      "p",
+      "shaft",
+      "above",
+      "ei 为正，轻过盈"
+    ],
+    [
+      "r",
+      "shaft",
+      "above",
+      "ei 为正，中等过盈"
+    ],
+    [
+      "s",
+      "shaft",
+      "above",
+      "ei 为正，中等过盈"
+    ],
+    [
+      "u",
+      "shaft",
+      "above",
+      "ei 为正，重过盈"
+    ],
+    [
+      "D",
+      "hole",
+      "below",
+      "EI 为负，大间隙（镜像 d）"
+    ],
+    [
+      "E",
+      "hole",
+      "below",
+      "EI 为负，间隙（镜像 e）"
+    ],
+    [
+      "F",
+      "hole",
+      "below",
+      "EI 为负，转动间隙（镜像 f）"
+    ],
+    [
+      "G",
+      "hole",
+      "below",
+      "EI 为负，小间隙精密定位（镜像 g）"
+    ],
+    [
+      "K",
+      "hole",
+      "crossing",
+      "跨零线过渡【语义占位】"
+    ],
+    [
+      "N",
+      "hole",
+      "above",
+      "偏紧过渡（镜像 n）"
+    ],
+    [
+      "P",
+      "hole",
+      "above",
+      "轻过盈（镜像 p）"
+    ],
+    [
+      "S",
+      "hole",
+      "above",
+      "中等过盈（镜像 s）"
+    ],
+    [
+      "H",
+      "hole",
+      "zero_lower",
+      "EI = 0，基孔制基准孔【定义】"
+    ]
+  ]
+}

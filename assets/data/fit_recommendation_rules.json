@@ -1,0 +1,9 @@
+{
+  "table": "fit_recommendation_rules",
+  "columns": ["rule_id", "scope_standard", "system", "fit_type", "grade_pool", "preferred_only", "scoring", "cost_hints", "candidate_limit", "reason_templates", "source_ref", "enabled"],
+  "rows": [
+    ["HOLE_BASIS_CLEARANCE_DEFAULT", null, "hole_basis", "clearance", "{\"hole\":[7,8,9,11],\"shaft\":[5,6,7,8,9,11]}", true, "{\"in_range\":1.0,\"overlap\":0.6,\"distance_decay\":0.2,\"economy\":0.25,\"preferred_bonus\":0.15}", "{\"5\":\"研磨/超精加工，成本很高【占位】\",\"6\":\"磨削，成本高【占位】\",\"7\":\"精车、铰削【占位】\",\"8\":\"车削/铣削【占位】\",\"9\":\"普通车铣【占位】\",\"11\":\"粗加工，成本低【占位】\"}", 8, "{\"deviation_note\":\"实际极限间隙 {x_min}~{x_max} mm，与目标范围 [{s_lo},{s_hi}] 的偏差为 {delta} μm\"}", "结构占位：权重与等级池待与工艺确认", true],
+    ["HOLE_BASIS_TRANSITION_DEFAULT", null, "hole_basis", "transition", "{\"hole\":[7],\"shaft\":[6]}", true, "{\"in_range\":1.0,\"overlap\":0.6,\"distance_decay\":0.2,\"economy\":0.25,\"preferred_bonus\":0.15}", "{\"5\":\"研磨/超精加工，成本很高【占位】\",\"6\":\"磨削，成本高【占位】\",\"7\":\"精车、铰削【占位】\"}", 8, "{\"deviation_note\":\"实际极限为最大间隙 {x_max} / 最大过盈 {y_max} mm，与目标范围 [{s_lo},{s_hi}] 的偏差为 {delta} μm\"}", "结构占位：权重与等级池待与工艺确认", true],
+    ["HOLE_BASIS_INTERFERENCE_DEFAULT", null, "hole_basis", "interference", "{\"hole\":[7,8],\"shaft\":[6,7]}", true, "{\"in_range\":1.0,\"overlap\":0.6,\"distance_decay\":0.2,\"economy\":0.25,\"preferred_bonus\":0.15}", "{\"5\":\"研磨/超精加工，成本很高【占位】\",\"6\":\"磨削，成本高【占位】\",\"7\":\"精车、铰削【占位】\",\"8\":\"车削/铣削【占位】\"}", 8, "{\"deviation_note\":\"实际极限过盈 {y_max}~{y_min} mm，与目标范围 [{s_lo},{s_hi}] 的偏差为 {delta} μm\"}", "结构占位：权重与等级池待与工艺确认", true]
+  ]
+}

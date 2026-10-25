@@ -1,0 +1,17 @@
+{
+  "table": "app_settings",
+  "columns": [
+    "key",
+    "value"
+  ],
+  "rows": [
+    [
+      "current_family",
+      "ISO"
+    ],
+    [
+      "dataset_mode",
+      "standard"
+    ]
+  ]
+}

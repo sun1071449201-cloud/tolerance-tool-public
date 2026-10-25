@@ -1,0 +1,96 @@
+{
+  "table": "standard_family_map",
+  "columns": [
+    "family",
+    "domain",
+    "primary_standard",
+    "fallback_chain",
+    "switch_note"
+  ],
+  "rows": [
+    [
+      "ISO",
+      "dimension",
+      "ISO_286",
+      "[\"ISO_286\"]",
+      null
+    ],
+    [
+      "GB",
+      "dimension",
+      "GB_T_1800",
+      "[\"GB_T_1800\",\"ISO_286\"]",
+      "GB/T 1800 与 ISO 286 数值等同"
+    ],
+    [
+      "SS_ISO",
+      "dimension",
+      "SS_ISO_286",
+      "[\"SS_ISO_286\",\"ISO_286\"]",
+      "SS ISO 等同采用 ISO"
+    ],
+    [
+      "ASME",
+      "dimension",
+      "ASME_B4_2",
+      "[\"ASME_B4_2\",\"ISO_286\"]",
+      "ASME 数值未收录，暂按 ISO 286 显示"
+    ],
+    [
+      "ISO",
+      "gdnt",
+      "MANUAL_GDT",
+      "[\"MANUAL_GDT\"]",
+      null
+    ],
+    [
+      "GB",
+      "gdnt",
+      "MANUAL_GDT",
+      "[\"MANUAL_GDT\"]",
+      null
+    ],
+    [
+      "ASME",
+      "gdnt",
+      "MANUAL_GDT",
+      "[\"MANUAL_GDT\"]",
+      null
+    ],
+    [
+      "SS_ISO",
+      "gdnt",
+      "MANUAL_GDT",
+      "[\"MANUAL_GDT\"]",
+      null
+    ],
+    [
+      "ISO",
+      "general",
+      "ISO_2768",
+      "[\"ISO_2768\"]",
+      null
+    ],
+    [
+      "GB",
+      "general",
+      "GB_T_1804",
+      "[\"GB_T_1804\",\"ISO_2768\"]",
+      "GB/T 1804 与 ISO 2768 等级数值等同"
+    ],
+    [
+      "SS_ISO",
+      "general",
+      "ISO_2768",
+      "[\"ISO_2768\"]",
+      "SS ISO 采用 ISO 2768"
+    ],
+    [
+      "ASME",
+      "general",
+      "ASME_Y14_5",
+      "[\"ASME_Y14_5\"]",
+      "ASME 未注几何公差按 Rule #1 由尺寸公差控制"
+    ]
+  ]
+}

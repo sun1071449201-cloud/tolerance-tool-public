@@ -1,0 +1,41 @@
+{
+  "table": "tolerance_principles",
+  "columns": [
+    "principle_id",
+    "name",
+    "short_symbol",
+    "definition_ref"
+  ],
+  "rows": [
+    [
+      "INDEPENDENCE",
+      "独立原则",
+      null,
+      "ISO 8015 / GB/T 4249"
+    ],
+    [
+      "ENVELOPE",
+      "包容要求",
+      "Ⓔ",
+      "GB/T 4249 / ASME Rule #1"
+    ],
+    [
+      "MMR",
+      "最大实体要求",
+      "Ⓜ",
+      "GB/T 16671 / ASME Y14.5"
+    ],
+    [
+      "LMR",
+      "最小实体要求",
+      "Ⓛ",
+      "GB/T 16671"
+    ],
+    [
+      "RPR",
+      "可逆要求",
+      "Ⓡ",
+      "GB/T 16671"
+    ]
+  ]
+}

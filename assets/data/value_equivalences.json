@@ -1,0 +1,65 @@
+{
+  "table": "value_equivalences",
+  "columns": [
+    "equiv_id",
+    "source_standard",
+    "target_standard",
+    "direction",
+    "applies_to",
+    "mapping",
+    "statement",
+    "note"
+  ],
+  "rows": [
+    [
+      "EQ_GBT1800_ISO286",
+      "GB_T_1800",
+      "ISO_286",
+      "bidirectional",
+      "[\"it_tolerance_values\",\"fundamental_deviation_values\",\"preferred_fits\"]",
+      "{\"*\":\"*\"}",
+      "GB/T 1800 与 ISO 286 数值等同，已复用 ISO 286 数值",
+      "尺寸公差"
+    ],
+    [
+      "EQ_SSISO286_ISO286",
+      "SS_ISO_286",
+      "ISO_286",
+      "bidirectional",
+      "[\"it_tolerance_values\",\"fundamental_deviation_values\",\"preferred_fits\"]",
+      "{\"*\":\"*\"}",
+      "SS ISO 286 等同采用 ISO 286，数值相同",
+      "尺寸公差"
+    ],
+    [
+      "EQ_ASMEB42_ISO286",
+      "ASME_B4_2",
+      "ISO_286",
+      "one_way",
+      "[\"it_tolerance_values\",\"fundamental_deviation_values\"]",
+      "{\"*\":\"*\"}",
+      "ASME B4.2 数值尚未收录核对，暂按 ISO 286 显示",
+      "回退提示"
+    ],
+    [
+      "EQ_GBT1804_ISO2768",
+      "GB_T_1804",
+      "ISO_2768",
+      "bidirectional",
+      "[\"general_tolerances\"]",
+      "{\"f\":\"f\",\"m\":\"m\",\"c\":\"c\",\"v\":\"v\"}",
+      "GB/T 1804 与 ISO 2768 的 f/m/c/v 等级数值等同",
+      "未注公差"
+    ],
+    [
+      "EQ_GBT1184_ISO2768",
+      "GB_T_1184",
+      "ISO_2768",
+      "bidirectional",
+      "[\"general_tolerances\"]",
+      "{\"H\":\"H\",\"K\":\"K\",\"L\":\"L\"}",
+      "GB/T 1184 与 ISO 2768-2 的 H/K/L 等级数值等同",
+      "未注形位公差"
+    ]
+  ]
+}

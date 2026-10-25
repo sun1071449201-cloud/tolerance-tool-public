@@ -1,0 +1,26 @@
+{
+  "table": "it_grades",
+  "columns": ["grade_id", "sort", "note"],
+  "rows": [
+    ["IT01", 1, null],
+    ["IT0", 2, null],
+    ["IT1", 3, null],
+    ["IT2", 4, null],
+    ["IT3", 5, null],
+    ["IT4", 6, null],
+    ["IT5", 7, null],
+    ["IT6", 8, null],
+    ["IT7", 9, null],
+    ["IT8", 10, null],
+    ["IT9", 11, null],
+    ["IT10", 12, null],
+    ["IT11", 13, null],
+    ["IT12", 14, null],
+    ["IT13", 15, null],
+    ["IT14", 16, null],
+    ["IT15", 17, null],
+    ["IT16", 18, null],
+    ["IT17", 19, null],
+    ["IT18", 20, null]
+  ]
+}
